@@ -1,24 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int r,i,j,k;
-    scanf("%d",&r);
-    for(i=r;i>=1;i--)
+    int i,j,k,a;
+    scanf("%d",&a);
+    for(i=1;i<=a;i++)
     {
-        for(j=1;j<=i-1;j++)
+        for(j=a;j>i;j--)
         {
             printf(" ");
         }
-        for(k=1;k<=r;k++)
+        for(k=1;k<=2*i-1;k++)
         {
-            if(i==1 || i==r || k==1 || k==r)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
+            printf("%d",i);
         }
         printf("
 ");
