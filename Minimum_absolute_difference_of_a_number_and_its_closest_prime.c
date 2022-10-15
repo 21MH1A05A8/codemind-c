@@ -4,10 +4,7 @@ int main()
 {
 	int n,i,j,k=0,c=0,mx=0,mn=0,m=0;
 	int a;
-
         scanf("%d",&a);
-        //printf("%d
-",a);
         c=0;
         k=0;
     	for(i=0;i<a;i++)
@@ -48,9 +45,7 @@ int main()
     	}
     	int min=a-mn,max=mx-a;
     	 if(min>max)
-    	    printf("%d
-",max);
+    	    printf("%d",max);
     	 else   
-            printf("%d
-",min);
+            printf("%d",min);
 }
